@@ -1,0 +1,10 @@
+*~
+.*.swp
+.DS_Store
+.vscode
+.env
+/node_modules/
+/vendor/
+npm-debug.log
+yarn-error.log
+.phpunit.result.cache

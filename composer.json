@@ -1,0 +1,27 @@
+{
+    "name": "helbing/agora-api",
+    "description": "agora api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "helbing",
+            "email": "helbingxxx@gmail.com"
+        }
+    ],
+    "autoload": {
+      "files": [],
+      "psr-4": {
+        "AgoraApi\\": "src/",
+        "Tests\\": "tests/"
+      }
+    },
+    "require": {
+        "php": "^7.1",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3",
+        "vlucas/phpdotenv": "^3.6"
+    }
+}
