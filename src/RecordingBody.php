@@ -18,7 +18,7 @@ class RecordingBody
     private $uid;
 
     /**
-     * @var array
+     * @var object
      */
     private $clientRequest;
 
@@ -26,7 +26,7 @@ class RecordingBody
     {
         $this->cname = $cname;
         $this->uid = $uid;
-        $this->clientRequest = $clientRequest;
+        $this->clientRequest = (object) $clientRequest;
     }
 
     /**
